@@ -1,0 +1,8 @@
+export DOCKER_REPO_PREFIX=anldisr
+export SNOTVER_VERSION=1.0
+
+snotver(){
+	docker run -it --rm \
+		--name snotver \
+		${DOCKER_REPO_PREFIX}/snotver:${SNOTVER_VERSION} "$@"
+}
