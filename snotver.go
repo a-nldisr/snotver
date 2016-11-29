@@ -7,7 +7,7 @@ import (
 )
 
 
-const appVersion = "2.0"
+const appVersion = "1.0"
 
 func main() {
 
